@@ -31,10 +31,8 @@ const ContentBox = () => {
 
     return (
         <Box sx={{ backgroundColor: '#1e1e1f', position: 'relative', margin: '2rem', border: '1px solid gray ', borderRadius: '20px', height: '90vh', width: '70vw' }}>
-            <Box sx={{ height: ' 87%', overflow: 'scroll' }}>
-                <Box style={{ padding: '1rem' }}>
-                    {<RenderSection />}
-                </Box>
+            <Box sx={{ height: ' 87%', overflow: 'scroll', padding: '1rem' }}>
+                {<RenderSection />}
             </Box>
             <Box>
             </Box>

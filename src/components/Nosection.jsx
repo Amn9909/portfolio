@@ -3,7 +3,7 @@ import { Box, Typography } from '@mui/material'
 
 const Nosection = () => {
   return (
-    <Box sx={{ display: 'flex', alignItems : 'center', justifyContent: 'center' }}>
+    <Box sx={{ height : '90%', display: 'flex', alignItems : 'center', justifyContent: 'center' }}>
       <Typography variant="h5">No Section selected</Typography>
     </Box>
   )
